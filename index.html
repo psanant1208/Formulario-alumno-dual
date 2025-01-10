@@ -2,6 +2,7 @@
 <html lang="es">
     <head>
         <title>Formulario de inscripción del alumnado dual</title>
+        <link rel="stylesheet" href="Estilo_formulario.css">
     </head>
     <body>
         <h1>Formulario de inscripción del alumnado dual</h1>
@@ -14,16 +15,16 @@
             <div>Edad <input type="text" required></div><br>
 
             <div>Sexo</div>
-            <input type="radio" value="Masculino">Masculino</input><br>
-            <input type="radio" value="Femenino">Femenino</input><br>
-            <input type="radio" value="No binario">No binario</input>
+            <input type="radio" name="sexo" value="Masculino">Masculino</input><br>
+            <input type="radio" name="sexo" value="Femenino">Femenino</input><br>
+            <input type="radio" name="sexo" value="No binario">No binario</input>
         </fieldset>
 
         <fieldset>
             <legend>Otros</legend>
             <div>Provincia</div>
             <form>
-                <select>
+                <select name="Provincia" id="Provincia">
                     <option value="Sevilla">Sevilla</option>
                     <option value="Granada">Granada</option>
                     <option value="Almería">Almería</option>

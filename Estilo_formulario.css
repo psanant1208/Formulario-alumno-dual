@@ -1,0 +1,16 @@
+body {
+    background-color: cadetblue;
+}
+
+div {
+    color: rgb(99, 26, 168);
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 40px;
+}
+
+fieldset {
+    border-color: brown;
+}
