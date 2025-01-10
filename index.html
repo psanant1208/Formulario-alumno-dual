@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Formulario de inscripción del alumnado dual</title>
+    </head>
+    <body>
+        <h1>Formulario de inscripción del alumnado dual</h1>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <div>Nombre <input type="text" required></div><br>
+    
+            <div>Apellidos <input type="text" required></div><br>
+
+            <div>Edad <input type="text" required></div><br>
+
+            <div>Sexo</div>
+            <input type="radio" value="Masculino">Masculino</input><br>
+            <input type="radio" value="Femenino">Femenino</input><br>
+            <input type="radio" value="No binario">No binario</input>
+        </fieldset>
+
+        <fieldset>
+            <legend>Otros</legend>
+            <div>Provincia</div>
+            <form>
+                <select>
+                    <option value="Sevilla">Sevilla</option>
+                    <option value="Granada">Granada</option>
+                    <option value="Almería">Almería</option>
+                    <option value="Jaén">Jaén</option>
+                    <option value="Cadiz">Cadiz</option>
+                    <option value="Huelva">Huelva</option>
+                    <option value="Málaga">Málaga</option>
+                    <option value="Córdoba">Córdoba</option>
+                </select>
+            </form><br>
+
+            <div>Curriculum <input type="text" required><input type="button" value="Elegir..."/></div><br>
+
+            <div>Observaciones <textarea></textarea></div>
+            
+        </fieldset>
+
+        <button type="submit" onclick="location.href='Registro_correcto.html'">Enviar</button>
+
+    </body>
+</html>
